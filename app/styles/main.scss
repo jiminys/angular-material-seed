@@ -1,0 +1,17 @@
+// bower:scss
+// endbower
+
+.menu-icon {
+  background: none;
+  border: none;
+}
+
+@media (max-width: 960px) {
+.sidebarTitle {
+  padding-left: 52px;
+}
+}
+
+@media (max-width: 599px) {
+[show-xs] { display : inherit; }
+}
