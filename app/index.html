@@ -19,8 +19,8 @@
         <md-sidenav layout="vertical" class="md-sidenav-left md-whiteframe-z2" component-id="left" is-locked-open="$media('md')" >
         <md-toolbar class="md-theme-light">
         <h1 class="md-toolbar-tools">
-        <a href="#/" ng-click="goHome()" class="sidebarTitle" hide show-sm>ng-europe - the app</a>
-        <a href="#/" ng-click="goHome()" class="sidebarTitle" hide show-xs>ng-europe</a>
+        <a href="#/" ng-click="goHome()" class="sidebarTitle" hide show-sm>long title - longer</a>
+        <a href="#/" ng-click="goHome()" class="sidebarTitle" hide show-xs>short title</a>
         </h1>
         </md-toolbar>
         <md-content flex class="md-content-padding" ng-controller="SidebarController">side bar</md-content>
@@ -32,8 +32,8 @@
                 <md-icon icon="images/ic_menu_24px.svg">
                 </md-icon>
                 </button>
-                <p hide show-sm hide-md>ng-material-seed</p>
-                <p hide show-xs>ng-material-seed</p>
+                <p hide show-sm hide-md>long title - longer</p>
+                <p hide show-xs>short title</p>
             </div>
             </md-toolbar>
             <md-content class="md-content-padding">
@@ -52,6 +52,7 @@
         <script src="bower_components/hammerjs/hammer.js"></script>
         <script src="bower_components/angular-material/angular-material.js"></script>
         <script src="bower_components/ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
